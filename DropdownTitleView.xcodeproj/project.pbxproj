@@ -8,29 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2917A422217CD435006DC123 /* DropdownTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2917A420217CD435006DC123 /* DropdownTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2917A42F217CD46B006DC123 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A42E217CD46B006DC123 /* SnapshotTests.swift */; };
-		2917A431217CD46B006DC123 /* DropdownTitleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2917A41D217CD435006DC123 /* DropdownTitleView.framework */; };
 		2917A438217CD877006DC123 /* DropdownTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2917A437217CD877006DC123 /* DropdownTitleView.swift */; };
 		2917A43C217CE4B3006DC123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2917A43B217CE4B3006DC123 /* Assets.xcassets */; };
 		4CD2E68332D6F27D5E4137D3 /* libPods-DropdownTitleView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE24F15C55126FAEA3B997F6 /* libPods-DropdownTitleView.a */; };
-		D6B1564375C8ADB36894FD5E /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E54EE157E14723BC6BAE0E7 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2917A432217CD46B006DC123 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2917A414217CD434006DC123 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2917A41C217CD435006DC123;
-			remoteInfo = DropdownTitleView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2917A41D217CD435006DC123 /* DropdownTitleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropdownTitleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2917A420217CD435006DC123 /* DropdownTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropdownTitleView.h; sourceTree = "<group>"; };
 		2917A421217CD435006DC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2917A42C217CD46A006DC123 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2917A42E217CD46B006DC123 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		2917A430217CD46B006DC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2917A437217CD877006DC123 /* DropdownTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownTitleView.swift; sourceTree = "<group>"; };
@@ -52,15 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2917A429217CD46A006DC123 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2917A431217CD46B006DC123 /* DropdownTitleView.framework in Frameworks */,
-				D6B1564375C8ADB36894FD5E /* libPods-Tests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				2917A41D217CD435006DC123 /* DropdownTitleView.framework */,
-				2917A42C217CD46A006DC123 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,25 +133,6 @@
 			productReference = 2917A41D217CD435006DC123 /* DropdownTitleView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2917A42B217CD46A006DC123 /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2917A434217CD46B006DC123 /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				4415112C37A71CA266AB9FE7 /* [CP] Check Pods Manifest.lock */,
-				2917A428217CD46A006DC123 /* Sources */,
-				2917A429217CD46A006DC123 /* Frameworks */,
-				2917A42A217CD46A006DC123 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2917A433217CD46B006DC123 /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = Tests;
-			productReference = 2917A42C217CD46A006DC123 /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,10 +145,7 @@
 				TargetAttributes = {
 					2917A41C217CD435006DC123 = {
 						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1000;
-					};
-					2917A42B217CD46A006DC123 = {
-						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -208,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				2917A41C217CD435006DC123 /* DropdownTitleView */,
-				2917A42B217CD46A006DC123 /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,13 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2917A43C217CE4B3006DC123 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2917A42A217CD46A006DC123 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,28 +200,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4415112C37A71CA266AB9FE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,23 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2917A428217CD46A006DC123 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2917A42F217CD46B006DC123 /* SnapshotTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2917A433217CD46B006DC123 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2917A41C217CD435006DC123 /* DropdownTitleView */;
-			targetProxy = 2917A432217CD46B006DC123 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2917A423217CD435006DC123 /* Debug */ = {
@@ -455,7 +363,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -484,49 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2917A435217CD46B006DC123 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 835C4BFFE5015A4E58C77A6B /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.githawk.Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2917A436217CD46B006DC123 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 644EE6EA1918CD92ADA839D9 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.githawk.Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -548,15 +414,6 @@
 			buildConfigurations = (
 				2917A426217CD435006DC123 /* Debug */,
 				2917A427217CD435006DC123 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2917A434217CD46B006DC123 /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2917A435217CD46B006DC123 /* Debug */,
-				2917A436217CD46B006DC123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
