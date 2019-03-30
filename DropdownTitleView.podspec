@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Source/*.swift'
   spec.resources    = "Source/Assets.xcassets"
   spec.platform     = :ios, '10.0'
-  spec.swift_version = '4.2'
+  spec.swift_version = '5.0'
 end
